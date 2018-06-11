@@ -16,7 +16,7 @@ docker run --rm sioncojp/awscli aws ssm get-parameters --region ap-northeast-1 -
 
 The MIT License
 
-Copyright (c) 2010-2018 Google, Inc. http://angularjs.org
+Copyright Shohei Koyama / sioncojp 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
