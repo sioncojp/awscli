@@ -9,7 +9,7 @@ docker build -t sioncojp/awscli .
 ## Usage
 
 ```shell
-docker run --rm sioncojp/awscli aws ssm get-parameters --region ap-northeast-1 --name test --with-decryption | jq -r -e .Parameters[].Name
+docker run --rm -v ~/.aws:/root/.aws sioncojp/awscli aws ssm get-parameters --region ap-northeast-1 --name test --with-decryption
 ```
 
 # License
